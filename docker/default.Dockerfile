@@ -52,7 +52,7 @@ RUN wget https://www.sqlite.org/${SQLITE_RELEASE_YEAR}/sqlite-amalgamation-${SQL
 
 
 FROM python:3.12.8-slim-bookworm AS linkding
-LABEL org.opencontainers.image.source="https://github.com/sissbruecker/linkding"
+LABEL org.opencontainers.image.source="https://github.com/singlaanish56/linkding"
 # install runtime dependencies
 RUN apt-get update && apt-get -y install mime-support libpq-dev libicu-dev libssl3 curl
 WORKDIR /etc/linkding
