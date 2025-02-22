@@ -196,3 +196,7 @@ typings/
 /chromium-profile
 # direnv
 /.direnv
+
+#docker
+docker-compose.override.yml
+
